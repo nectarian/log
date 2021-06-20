@@ -1,0 +1,15 @@
+level = "INFO"
+
+[context]
+  format = "console"
+  show_caller = true
+  fileds={app ="runner"}
+
+[output]
+  compress = false
+  console = true
+  file = false
+  file_path = "/tmp/app.log"
+  max_age = 7
+  max_backups = 30
+  max_size = 10
